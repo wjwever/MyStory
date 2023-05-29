@@ -1,19 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-05-29T14:38:12.701508+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-05-29T14:38:12.869430+00:00</updated><content type="html"><![CDATA[<ul>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-05-29T14:39:03.036210+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-05-29T14:39:03.243574+00:00</updated><content type="html"><![CDATA[<ul>
 <li>在代码目录下生成ctags：</li>
 </ul>
-<pre><code class="language-bash">ctags -R   --languages=c++ --langmap=c++:+.inl -h +.inl --c++-kinds=+px --fields=+aiKSz --extra=+q   --exclude=platform_mgr/* --exclude=android-ndk-r11c/* --exclude=output/* -f ./tags```
-
-- vimrc配置
-```bash
-set tags=tags;/
+<pre><code class="language-bash">ctags -R   --languages=c++ --langmap=c++:+.inl -h +.inl --c++-kinds=+px --fields=+aiKSz --extra=+q   --exclude=platform_mgr/* --exclude=android-ndk-r11c/* --exclude=output/* -f ./tags
 </code></pre>
 <ul>
-<li>注释autochdir</li>
+<li>vimrc指定tag位置</li>
+</ul>
+<pre><code class="language-bash">set tags=tags;/
+</code></pre>
+<ul>
+<li>vimrc注释autochdir</li>
 </ul>
 <pre><code>&quot; set autochdir                   &quot; 自动切换工作目录为当前文件所在的目录
 </code></pre>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/12</id><title>test3</title><updated>2023-05-29T14:38:12.955071+00:00</updated><content type="html"><![CDATA[<p>xxxx</p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/12" rel="alternate"/><category term="cuda by example"/><published>2023-05-29T14:17:58+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/11</id><title>test2</title><updated>2023-05-29T14:38:13.043771+00:00</updated><content type="html"><![CDATA[<p>xx</p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/11" rel="alternate"/><category term="cuda by example"/><published>2023-05-29T14:03:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-05-29T14:38:13.125382+00:00</updated><content type="html"><![CDATA[<p>cuda入门记录</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/12</id><title>test3</title><updated>2023-05-29T14:39:03.414993+00:00</updated><content type="html"><![CDATA[<p>xxxx</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/12" rel="alternate"/><category term="cuda by example"/><published>2023-05-29T14:17:58+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/11</id><title>test2</title><updated>2023-05-29T14:39:03.508552+00:00</updated><content type="html"><![CDATA[<p>xx</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/11" rel="alternate"/><category term="cuda by example"/><published>2023-05-29T14:03:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-05-29T14:39:03.600392+00:00</updated><content type="html"><![CDATA[<p>cuda入门记录</p>
 ]]></content><link href="https://github.com/wjwever/gitblog/issues/10" rel="alternate"/><category term="cuda by example"/><published>2023-05-29T13:45:27+00:00</published></entry></feed>

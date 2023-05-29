@@ -2,14 +2,15 @@
 
 - 在代码目录下生成ctags：
 ```bash
-ctags -R   --languages=c++ --langmap=c++:+.inl -h +.inl --c++-kinds=+px --fields=+aiKSz --extra=+q   --exclude=platform_mgr/* --exclude=android-ndk-r11c/* --exclude=output/* -f ./tags```
+ctags -R   --languages=c++ --langmap=c++:+.inl -h +.inl --c++-kinds=+px --fields=+aiKSz --extra=+q   --exclude=platform_mgr/* --exclude=android-ndk-r11c/* --exclude=output/* -f ./tags
+```
 
-- vimrc配置
+- vimrc指定tag位置
 ```bash
 set tags=tags;/
 ```
 
-- 注释autochdir
+- vimrc注释autochdir
 ```
 " set autochdir                   " 自动切换工作目录为当前文件所在的目录
 ```
