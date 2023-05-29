@@ -48,7 +48,7 @@ jobs:
       - name: Generate new md
         run: |
           source venv/bin/activate
-          python main.py ${{ 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 }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
+          python main.py ${{ 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 }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
 
       - name: Push README
         run: |
