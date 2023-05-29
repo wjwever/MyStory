@@ -5,4 +5,5 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [test2](https://github.com/wjwever/gitblog/issues/11)--2023-05-29
 - [开始学习cuda](https://github.com/wjwever/gitblog/issues/10)--2023-05-29
