@@ -2,11 +2,56 @@
 import argparse
 import os
 import re
+import logging
 
 from marko.ext.gfm import gfm as marko
 from github import Github
 from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
+
+
+class Logger:
+    def __init__(self, path, clevel=logging.DEBUG, Flevel=logging.DEBUG):
+        self.logger = logging.getLogger(path)
+        self.logger.setLevel(logging.DEBUG)
+        fmt = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s', '%Y-%m-%d %H:%M:%S')
+
+        # 设置CMD日志
+        sh = logging.StreamHandler()
+        sh.setFormatter(fmt)
+        sh.setLevel(clevel)
+
+        # 设置文件日志
+        fh = logging.FileHandler(path)
+        fh.setFormatter(fmt)
+        fh.setLevel(Flevel)
+        self.logger.addHandler(sh)
+        self.logger.addHandler(fh)
+
+    def debug(self, message):
+        self.logger.debug(message)
+
+    def info(self, message):
+        self.logger.info(message)
+
+    def war(self, message):
+        self.logger.warn(message)
+
+    def error(self, message):
+        self.logger.error(message)
+
+    def cri(self, message):
+        self.logger.critical(message)
+
+
+#  if __name__ == '__main__':
+    #  logyyx = Logger('yyx.log', logging.ERROR, logging.DEBUG)
+    #  logyyx.debug('一个debug信息')
+    #  logyyx.info('一个info信息')
+    #  logyyx.war('一个warning信息')
+    #  logyyx.error('一个error信息')
+    #  logyyx.cri('一个致命critical信息')
+
 
 MD_HEAD = """## Gitblog
 My personal blog using issues and GitHub Actions (随意转载，无需署名)
@@ -28,6 +73,7 @@ FRIENDS_INFO_DICT = {
     "描述": "",
 }
 
+LOG = Logger(BACKUP_DIR + '/main.log', logging.ERROR, logging.DEBUG)
 
 def get_me(user):
     return user.get_user().login
@@ -195,6 +241,7 @@ def add_md_label(repo, md, me):
 
     with open(md, "a+", encoding="utf-8") as md:
         for label in labels:
+            LOG.debug("md_label.name={}".format(label.name))
 
             # we don't need add top label again
             if label.name in IGNORE_LABELS:
@@ -263,8 +310,14 @@ def generate_rss_feed(repo, filename, me):
 
 def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     user = login(token)
+    LOG.debug("user={}".format(str(user)))
+
     me = get_me(user)
+    LOG.debug("me={}".format(str(me)))
+
     repo = get_repo(user, repo_name)
+    LOG.debug("repo={}".format(str(repo)))
+
     # add to readme one by one, change order here
     add_md_header("README.md", repo_name)
     for func in [add_md_firends, add_md_top, add_md_recent, add_md_label, add_md_todo]:
@@ -303,5 +356,4 @@ if __name__ == "__main__":
         "--issue_number", help="issue_number", default=None, required=False
     )
     options = parser.parse_args()
-    print(options)
     main(options.github_token, options.repo_name, options.issue_number)
