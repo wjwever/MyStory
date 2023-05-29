@@ -241,13 +241,14 @@ def add_md_label(repo, md, me):
 
     with open(md, "a+", encoding="utf-8") as md:
         for label in labels:
-            LOG.debug("md_label.name={}".format(label.name))
+            LOG.debug("\tmd_label.name={}".format(label.name))
 
             # we don't need add top label again
             if label.name in IGNORE_LABELS:
                 continue
 
             issues = get_issues_from_label(repo, label)
+            LOG.debug("\t"*2 + issues.totalCount={}".format(issues.totalCount))
             if issues.totalCount:
                 md.write("## " + label.name + "\n")
                 issues = sorted(issues, key=lambda x: x.created_at, reverse=True)
@@ -256,6 +257,7 @@ def add_md_label(repo, md, me):
                 if not issue:
                     continue
                 if is_me(issue, me):
+                    LOG.debug("\t"*3 + "issue_title={}".format(issue.title))
                     if i == ANCHOR_NUMBER:
                         md.write("<details><summary>显示更多</summary>\n")
                         md.write("\n")
