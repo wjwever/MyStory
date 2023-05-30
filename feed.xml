@@ -1,5 +1,65 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-05-29T14:41:38.825806+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-05-29T14:41:39.173365+00:00</updated><content type="html"><![CDATA[<ul>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-05-30T07:52:39.677164+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/14</id><title>编译单个文件</title><updated>2023-05-30T07:52:39.849754+00:00</updated><content type="html"><![CDATA[<p>参考：
+<a href="https://zhuanlan.zhihu.com/p/534439206">https://zhuanlan.zhihu.com/p/534439206</a>
+<a href="https://github.com/wzpan/cmake-demo">https://github.com/wzpan/cmake-demo</a></p>
+<ul>
+<li>c++代码</li>
+</ul>
+<pre><code class="language-c++">#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+
+/**
+ * power - Calculate the power of number.
+ * @param base: Base value.
+ * @param exponent: Exponent value.
+ *
+ * @return base raised to the power exponent.
+ */
+double power(double base, int exponent)
+{
+    int result = base;
+    int i;
+    
+    if (exponent == 0) {
+        return 1;
+    }
+    
+    for(i = 1; i &lt; exponent; ++i){
+        result = result * base;
+    }
+
+    return result;
+}
+
+int main(int argc, char *argv[])
+{
+    if (argc &lt; 3){
+        printf(&quot;Usage: %s base exponent \n&quot;, argv[0]);
+        return 1;
+    }
+    double base = atof(argv[1]);
+    int exponent = atoi(argv[2]);
+    double result = power(base, exponent);
+    printf(&quot;%g ^ %d is %g\n&quot;, base, exponent, result);
+    return 0;
+}
+</code></pre>
+<ul>
+<li>编写 CMakeLists.txt 文件，并保存在与 源文件同个目录下</li>
+</ul>
+<pre><code class="language-cmake"># CMake 最低版本号要求
+cmake_minimum_required (VERSION 2.8)
+
+# 项目信息
+project (Demo1)
+
+# 指定生成目标
+add_executable(Demo main.cc)
+</code></pre>
+<ul>
+<li>在当前目录执行 cmake .  得到 Makefile ，再使用 make 命令编译</li>
+</ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/14" rel="alternate"/><category term="cmake学习"/><published>2023-05-30T07:52:04+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-05-30T07:52:39.950510+00:00</updated><content type="html"><![CDATA[<ul>
 <li>在代码目录下生成ctags：</li>
 </ul>
 <pre><code class="language-bash">ctags -R   --languages=c++ --langmap=c++:+.inl -h +.inl --c++-kinds=+px --fields=+aiKSz --extra=+q   --exclude=platform_mgr/* --exclude=android-ndk-r11c/* --exclude=output/* -f ./tags
@@ -17,7 +77,7 @@
 <blockquote>
 <p>参考：<a href="https://blog.csdn.net/sinat_30603081/article/details/111192247">https://blog.csdn.net/sinat_30603081/article/details/111192247</a></p>
 </blockquote>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/12</id><title>test3</title><updated>2023-05-29T14:41:39.367008+00:00</updated><content type="html"><![CDATA[<p>xxxx</p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/12" rel="alternate"/><category term="cuda by example"/><published>2023-05-29T14:17:58+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/11</id><title>test2</title><updated>2023-05-29T14:41:39.525578+00:00</updated><content type="html"><![CDATA[<p>xx</p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/11" rel="alternate"/><category term="cuda by example"/><published>2023-05-29T14:03:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-05-29T14:41:39.685801+00:00</updated><content type="html"><![CDATA[<p>cuda入门记录</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/12</id><title>test3</title><updated>2023-05-30T07:52:40.041221+00:00</updated><content type="html"><![CDATA[<p>xxxx</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/12" rel="alternate"/><category term="cuda by example"/><published>2023-05-29T14:17:58+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/11</id><title>test2</title><updated>2023-05-30T07:52:40.126381+00:00</updated><content type="html"><![CDATA[<p>xx</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/11" rel="alternate"/><category term="cuda by example"/><published>2023-05-29T14:03:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-05-30T07:52:40.214130+00:00</updated><content type="html"><![CDATA[<p>cuda入门记录</p>
 ]]></content><link href="https://github.com/wjwever/gitblog/issues/10" rel="alternate"/><category term="cuda by example"/><published>2023-05-29T13:45:27+00:00</published></entry></feed>
