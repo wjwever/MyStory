@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-06-01T05:34:34.396179+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/16</id><title>《字节跳动：从0到1的秘密》</title><updated>2023-06-01T05:34:34.600432+00:00</updated><content type="html"><![CDATA[<ul>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-06-01T08:06:54.062592+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/16</id><title>《字节跳动：从0到1的秘密》</title><updated>2023-06-01T08:06:54.423839+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p>张一鸣在处理员工管理问题时素以态度温和著称。他若是不满员工的表现，会温和地讲道理，还会给予真诚的鼓励，他用这样的办法来解决问题，员工们称这种方法有其独特的魔力。包括梁汝波在内的许多人都说，张一鸣认为愤怒是一种无用的情绪，是一种精神上的懒惰。相反，他努力追求一种“介于轻度喜悦和轻度抑郁之间”的理想状态。</p>
 </li>
@@ -10,7 +10,7 @@
 <p>“就像扎克伯格创办脸书网连接了人和人，特拉维斯·卡兰尼克创办优步连接了人和车，今日头条是让信息和人实现更广泛和高效率的匹配。”张一鸣后来这样描述这款新旗舰产品的愿景。团队开始带着开阔的视野，开发一个更有野心的应用程序，以聚合和组织来自互联网的许多内容。这是一款以大数据和机器学习能力为驱动力的应用程序，可以根据人们的个性化偏好为他们提供量身定制的信息源，而且无须人类管理员。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/16" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:30:46+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/15</id><title>《选择》</title><updated>2023-06-01T05:34:34.680887+00:00</updated><content type="html"><![CDATA[<h2>渴望胜利 心得总结</h2>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/16" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:30:46+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/15</id><title>《选择》</title><updated>2023-06-01T08:06:54.590647+00:00</updated><content type="html"><![CDATA[<h2>渴望胜利 心得总结</h2>
 <ul>
 <li>
 <p>确定优先级：人不能太贪心，不要同时做很多件事。只专注于最关键的几件事，才能一步步走向胜利。</p>
@@ -110,7 +110,7 @@
 <p>其实，人生规划也好，职业生涯的规划也好，并没有一个正确与错误的明确定义。每个人都可能在自己的人生路上看到一些机会。关键在于，每个人如何真正发挥好拥有的资源，并激发自己的潜力。这就有点像玩扑克牌——手上拿到的是什么牌，又如何把这副牌打到最好？这一点很重要。每个人手上拿到的牌都不一样。无论拿到的是怎样的牌，都要尽量去打好，这也是人生有趣的地方。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/15" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:17:34+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-06-01T05:34:34.785770+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/15" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:17:34+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-06-01T08:06:54.794276+00:00</updated><content type="html"><![CDATA[<ul>
 <li>在代码目录下生成ctags：</li>
 </ul>
 <pre><code class="language-bash">ctags -R   --languages=c++ --langmap=c++:+.inl -h +.inl --c++-kinds=+px --fields=+aiKSz --extra=+q   --exclude=platform_mgr/* --exclude=android-ndk-r11c/* --exclude=output/* -f ./tags
@@ -128,5 +128,7 @@
 <blockquote>
 <p>参考：<a href="https://blog.csdn.net/sinat_30603081/article/details/111192247">https://blog.csdn.net/sinat_30603081/article/details/111192247</a></p>
 </blockquote>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-06-01T05:34:34.891319+00:00</updated><content type="html"><![CDATA[<p>cuda入门记录</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-06-01T08:06:54.972653+00:00</updated><content type="html"><![CDATA[<p>学习资料
+（1）《CUDA by example》
+（2）<a href="https://github.com/tpn/cuda-by-example">https://github.com/tpn/cuda-by-example</a></p>
 ]]></content><link href="https://github.com/wjwever/gitblog/issues/10" rel="alternate"/><category term="cuda by example"/><published>2023-05-29T13:45:27+00:00</published></entry></feed>
