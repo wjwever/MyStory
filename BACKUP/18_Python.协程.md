@@ -33,4 +33,6 @@ Two
 * 在 async 函数main的里面，asyncio.gather() 方法将多个异步任务（三个 count()）包装成一个新的异步任务，必须等到内部的多个异步任务都执行结束，这个新的异步任务才会结束
 
 ***
-参考  http://www.ruanyifeng.com/blog/2019/11/python-asyncio.html
+参考  
+http://www.ruanyifeng.com/blog/2019/11/python-asyncio.html
+https://cloud.tencent.com/developer/inventory/5723/article/1639528
