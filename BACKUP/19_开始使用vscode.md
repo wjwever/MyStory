@@ -11,3 +11,4 @@
 下载太慢解决的方法：https://blog.csdn.net/weixin_46621570/article/details/128007351
 安装：https://zhuanlan.zhihu.com/p/113222681
 插件：https://zhuanlan.zhihu.com/p/112016680
+           https://blog.csdn.net/libusi001/article/details/124309613
