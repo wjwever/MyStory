@@ -1,7 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-06-12T03:17:59.674397+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/24</id><title>c++如何释放vector的内存</title><updated>2023-06-12T03:17:59.897129+00:00</updated><content type="html"><![CDATA[<p>vector<T>().swap(x);</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-06-12T03:22:05.812262+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/25</id><title>Linux限速解压</title><updated>2023-06-12T03:22:06.194289+00:00</updated><content type="html"><![CDATA[<p>需要安装pv工具
+cat test.sql.tar | pv -e -t -b -L 10M |tar -xf -
+<a href="https://linux.cn/article-6734-1.html">https://linux.cn/article-6734-1.html</a>
+<a href="https://loveyu.org/5693.html">https://loveyu.org/5693.html</a></p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/25" rel="alternate"/><published>2023-06-12T03:21:29+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/24</id><title>c++如何释放vector的内存</title><updated>2023-06-12T03:22:06.375607+00:00</updated><content type="html"><![CDATA[<p>vector<T>().swap(x);</p>
 <p><a href="https://zhuanlan.zhihu.com/p/338390842">https://zhuanlan.zhihu.com/p/338390842</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/24" rel="alternate"/><published>2023-06-12T03:09:09+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/23</id><title>git如何撤销</title><updated>2023-06-12T03:17:59.992206+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/24" rel="alternate"/><published>2023-06-12T03:09:09+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/23</id><title>git如何撤销</title><updated>2023-06-12T03:22:06.529921+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p>情况一：文件被修改了，但未执行git add操作（working tree内撤销）
 git checkout fileName
@@ -25,8 +29,8 @@ git reset [--hard|soft|mixed|merge|keep] [commit|HEAD]</p>
 </li>
 </ul>
 <p><a href="https://blog.csdn.net/ligang2585116/article/details/71094887">https://blog.csdn.net/ligang2585116/article/details/71094887</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/23" rel="alternate"/><published>2023-06-12T02:41:56+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/22</id><title>关于这个博客</title><updated>2023-06-12T03:18:00.094689+00:00</updated><content type="html"><![CDATA[<p>TODO 内容不能为空</p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/22" rel="alternate"/><category term="Top"/><published>2023-06-11T15:21:51+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/21</id><title>个人简历</title><updated>2023-06-12T03:18:00.180563+00:00</updated><content type="html"><![CDATA[<h1>王佳伟</h1>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/23" rel="alternate"/><published>2023-06-12T02:41:56+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/22</id><title>关于这个博客</title><updated>2023-06-12T03:22:06.723235+00:00</updated><content type="html"><![CDATA[<p>TODO 内容不能为空</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/22" rel="alternate"/><category term="Top"/><published>2023-06-11T15:21:51+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/21</id><title>个人简历</title><updated>2023-06-12T03:22:06.908257+00:00</updated><content type="html"><![CDATA[<h1>王佳伟</h1>
 <p>（HR会打印你的简历，用于在面试的时候联系，所以联系方式放到最上边会比较方便）</p>
 <ul>
 <li>性别：男</li>
@@ -91,9 +95,9 @@ git reset [--hard|soft|mixed|merge|keep] [commit|HEAD]</p>
 <h1>致谢</h1>
 <h2>感谢您花时间阅读我的简历，期待能有机会和您共事。</h2>
 <p>这分简历感谢：<a href="https://github.com/geekcompany/ResumeSample/blob/master/c.md">https://github.com/geekcompany/ResumeSample/blob/master/c.md</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/21" rel="alternate"/><category term="Top"/><published>2023-06-11T15:02:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/20</id><title>github 代码比较</title><updated>2023-06-12T03:18:00.286707+00:00</updated><content type="html"><![CDATA[<p>在百度用icode代码管理工具，网页有专门的代码比较入口，可以轻松的比较两个commit的不同，貌似github也有：
+]]></content><link href="https://github.com/wjwever/gitblog/issues/21" rel="alternate"/><category term="Top"/><published>2023-06-11T15:02:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/20</id><title>github 代码比较</title><updated>2023-06-12T03:22:07.113110+00:00</updated><content type="html"><![CDATA[<p>在百度用icode代码管理工具，网页有专门的代码比较入口，可以轻松的比较两个commit的不同，貌似github也有：
 参考网页：<a href="https://www.null123.com/question/detail-2608798.html">https://www.null123.com/question/detail-2608798.html</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/20" rel="alternate"/><published>2023-06-11T14:28:47+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/19</id><title>开始使用vscode</title><updated>2023-06-12T03:18:00.387388+00:00</updated><content type="html"><![CDATA[<p>写代码快6年了，一直都是用vim，自己DIY配置，这个方式可能已经过时了。。。。
+]]></content><link href="https://github.com/wjwever/gitblog/issues/20" rel="alternate"/><published>2023-06-11T14:28:47+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/19</id><title>开始使用vscode</title><updated>2023-06-12T03:22:07.273341+00:00</updated><content type="html"><![CDATA[<p>写代码快6年了，一直都是用vim，自己DIY配置，这个方式可能已经过时了。。。。
 今天开始入坑vscode，享受一下各种丰富的插件带来的效率提升</p>
 <p>体验感受：</p>
 <ul>
@@ -107,7 +111,7 @@ git reset [--hard|soft|mixed|merge|keep] [commit|HEAD]</p>
 安装：<a href="https://zhuanlan.zhihu.com/p/113222681">https://zhuanlan.zhihu.com/p/113222681</a>
 插件：<a href="https://zhuanlan.zhihu.com/p/112016680">https://zhuanlan.zhihu.com/p/112016680</a>
 <a href="https://blog.csdn.net/libusi001/article/details/124309613">https://blog.csdn.net/libusi001/article/details/124309613</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/19" rel="alternate"/><category term="生活笔记"/><published>2023-06-10T09:36:55+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/18</id><title>Python 协程</title><updated>2023-06-12T03:18:00.470074+00:00</updated><content type="html"><![CDATA[<h2>上代码：</h2>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/19" rel="alternate"/><category term="生活笔记"/><published>2023-06-10T09:36:55+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/18</id><title>Python 协程</title><updated>2023-06-12T03:22:07.442890+00:00</updated><content type="html"><![CDATA[<h2>上代码：</h2>
 <pre><code class="language-python">!/usr/bin/env python3
 # async.py
 
@@ -143,7 +147,7 @@ Two
 <a href="http://www.ruanyifeng.com/blog/2019/11/python-asyncio.html">http://www.ruanyifeng.com/blog/2019/11/python-asyncio.html</a>
 <a href="https://cloud.tencent.com/developer/inventory/5723/article/1639528">https://cloud.tencent.com/developer/inventory/5723/article/1639528</a>
 <a href="https://zhuanlan.zhihu.com/p/137057192">https://zhuanlan.zhihu.com/p/137057192</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/18" rel="alternate"/><published>2023-06-04T09:59:44+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/17</id><title>2023代办事项</title><updated>2023-06-12T03:18:00.577182+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/18" rel="alternate"/><published>2023-06-04T09:59:44+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/17</id><title>2023代办事项</title><updated>2023-06-12T03:22:07.606943+00:00</updated><content type="html"><![CDATA[<ul>
 <li><input disabled="" type="checkbox"> 考驾照</li>
 <li><input disabled="" type="checkbox"> cuda编程学习</li>
 <li><input disabled="" type="checkbox"> 读书30本</li>
@@ -152,7 +156,7 @@ Two
 <li><input disabled="" type="checkbox"> wenet学习</li>
 <li><input disabled="" type="checkbox"> vue学习</li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/17" rel="alternate"/><category term="待办事项"/><published>2023-06-01T08:24:04+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/16</id><title>《字节跳动：从0到1的秘密》</title><updated>2023-06-12T03:18:00.675891+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/17" rel="alternate"/><category term="待办事项"/><published>2023-06-01T08:24:04+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/16</id><title>《字节跳动：从0到1的秘密》</title><updated>2023-06-12T03:22:07.768323+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p>张一鸣在处理员工管理问题时素以态度温和著称。他若是不满员工的表现，会温和地讲道理，还会给予真诚的鼓励，他用这样的办法来解决问题，员工们称这种方法有其独特的魔力。包括梁汝波在内的许多人都说，张一鸣认为愤怒是一种无用的情绪，是一种精神上的懒惰。相反，他努力追求一种“介于轻度喜悦和轻度抑郁之间”的理想状态。</p>
 </li>
@@ -163,7 +167,7 @@ Two
 <p>“就像扎克伯格创办脸书网连接了人和人，特拉维斯·卡兰尼克创办优步连接了人和车，今日头条是让信息和人实现更广泛和高效率的匹配。”张一鸣后来这样描述这款新旗舰产品的愿景。团队开始带着开阔的视野，开发一个更有野心的应用程序，以聚合和组织来自互联网的许多内容。这是一款以大数据和机器学习能力为驱动力的应用程序，可以根据人们的个性化偏好为他们提供量身定制的信息源，而且无须人类管理员。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/16" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:30:46+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/15</id><title>《选择》</title><updated>2023-06-12T03:18:00.761083+00:00</updated><content type="html"><![CDATA[<h2>渴望胜利 心得总结</h2>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/16" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:30:46+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/15</id><title>《选择》</title><updated>2023-06-12T03:22:07.942559+00:00</updated><content type="html"><![CDATA[<h2>渴望胜利 心得总结</h2>
 <ul>
 <li>
 <p>确定优先级：人不能太贪心，不要同时做很多件事。只专注于最关键的几件事，才能一步步走向胜利。</p>
@@ -263,7 +267,7 @@ Two
 <p>其实，人生规划也好，职业生涯的规划也好，并没有一个正确与错误的明确定义。每个人都可能在自己的人生路上看到一些机会。关键在于，每个人如何真正发挥好拥有的资源，并激发自己的潜力。这就有点像玩扑克牌——手上拿到的是什么牌，又如何把这副牌打到最好？这一点很重要。每个人手上拿到的牌都不一样。无论拿到的是怎样的牌，都要尽量去打好，这也是人生有趣的地方。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/15" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:17:34+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-06-12T03:18:00.855989+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/15" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:17:34+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-06-12T03:22:08.164711+00:00</updated><content type="html"><![CDATA[<ul>
 <li>在代码目录下生成ctags：</li>
 </ul>
 <pre><code class="language-bash">ctags -R   --languages=c++ --langmap=c++:+.inl -h +.inl --c++-kinds=+px --fields=+aiKSz --extra=+q   --exclude=platform_mgr/* --exclude=android-ndk-r11c/* --exclude=output/* -f ./tags
@@ -281,7 +285,7 @@ Two
 <blockquote>
 <p>参考：<a href="https://blog.csdn.net/sinat_30603081/article/details/111192247">https://blog.csdn.net/sinat_30603081/article/details/111192247</a></p>
 </blockquote>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-06-12T03:18:00.946157+00:00</updated><content type="html"><![CDATA[<p>学习资料
+]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-06-12T03:22:08.355757+00:00</updated><content type="html"><![CDATA[<p>学习资料
 （1）《CUDA by example》
 （2）<a href="https://github.com/tpn/cuda-by-example">https://github.com/tpn/cuda-by-example</a></p>
 ]]></content><link href="https://github.com/wjwever/gitblog/issues/10" rel="alternate"/><category term="cuda"/><published>2023-05-29T13:45:27+00:00</published></entry></feed>
