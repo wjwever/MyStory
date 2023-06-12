@@ -120,8 +120,9 @@ python -c 'import os; print(os.path.abspath("note.txt"))'
 ls $PWD/note.txt
 ```
 * 获取文件名:
-```basename /home/cuizhiliang344/note.txt
-     note.txt
+```
+basename /home/cuizhiliang344/note.txt
+note.txt
 ```
 * 获取目录:
 ```
