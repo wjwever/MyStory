@@ -95,3 +95,43 @@ cat 文件名 |sed ‘/^$/d'
 ```
 grep OUTPUT . -r | awk -F 'rank_result:|\\]\\[rewrite_result' '{print $2}' > rank_word
 ```
+![image](https://github.com/wjwever/gitblog/assets/50772316/ce4eb80b-f980-4372-891b-b2dc00ea2812)
+
+* 查看redhat版本
+```cat /etc/redhat-release```
+* sort -k
+```
+banana:30:5.5 
+apple:10:2.5 
+pear:90:2.3 
+orange:20:3.4
+sort -n -k 2 -t : facebook.txt
+```
+* awk删除文件最后一列
+```awk  '{$NF="";print}' a.txt```
+* 获取文件全路径名
+```
+方法一:
+readlink -f  note.txt
+/home/cuizhiliang344/note.txt
+方法二:
+python -c 'import os; print(os.path.abspath("note.txt"))'
+方法三:
+ls $PWD/note.txt
+```
+* 获取文件名:
+```basename /home/cuizhiliang344/note.txt
+     note.txt
+```
+* 获取目录:
+```
+dirname /home/cuizhiliang344/note.txt
+/home/cuizhiliang344
+```
+* python 打开文本骚操作
+```top_intents = set([x.strip() for x in open(intent_file, 'r')])```
+
+*文本编码格式转换
+```iconv -f gb18030 -t utf-8 file1.txt -o file2.txt```
+* tcp socket
+![image](https://github.com/wjwever/gitblog/assets/50772316/be220a7a-58e1-41d3-803d-11babcf85cc5)

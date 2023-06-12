@@ -22,11 +22,16 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 待办事项
 - [2023代办事项](https://github.com/wjwever/gitblog/issues/17)--2023-06-01
 ## 杂七杂八
+- [shell scripts](https://github.com/wjwever/gitblog/issues/26)--2023-06-12
 - [Linux限速解压](https://github.com/wjwever/gitblog/issues/25)--2023-06-12
 - [git如何撤销](https://github.com/wjwever/gitblog/issues/23)--2023-06-12
 - [github 代码比较](https://github.com/wjwever/gitblog/issues/20)--2023-06-11
 - [开始使用vscode](https://github.com/wjwever/gitblog/issues/19)--2023-06-10
+<details><summary>显示更多</summary>
+
 - [Python 协程](https://github.com/wjwever/gitblog/issues/18)--2023-06-04
+</details>
+
 ## 读书笔记
 - [《字节跳动：从0到1的秘密》](https://github.com/wjwever/gitblog/issues/16)--2023-06-01
 - [《选择》](https://github.com/wjwever/gitblog/issues/15)--2023-06-01
