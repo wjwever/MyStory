@@ -1,15 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-06-12T04:58:46.461674+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/26</id><title>shell scripts</title><updated>2023-06-12T04:58:46.697299+00:00</updated><content type="html"><![CDATA[<ul>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-06-12T05:04:16.186581+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/26</id><title>shell scripts</title><updated>2023-06-12T05:04:16.512117+00:00</updated><content type="html"><![CDATA[<ul>
 <li>统计itg超时数目</li>
 </ul>
 <pre><code>grep total_cost . -r | awk -F&#x27;total_cost:|us&#x27; &#x27;{if($2&gt;100000)print $2}&#x27;
 </code></pre>
+<hr />
 <ul>
 <li>统计itg平均耗时</li>
 </ul>
 <pre><code>grep total_cost . -r | awk -F&#x27;total_cost:|us&#x27;  &#x27;BEGIN{cnt=0;sum=0}{cnt+=1;sum+=$2}END{print sum/cnt}&#x27;
 cat log/itg-server2.log* | grep total_cost | awk -F&#x27;total_cost:&#x27; &#x27;{print $2}&#x27;| awk -F&#x27; us&#x27; &#x27;BEGIN{sum=0} {if($1&gt;40000) sum+=1} END{print sum,NR, sum/NR}&#x27;
 </code></pre>
+<hr />
 <ul>
 <li>找出文件（filename）中包含123或者包含abc的行</li>
 </ul>
@@ -17,16 +19,19 @@ cat log/itg-server2.log* | grep total_cost | awk -F&#x27;total_cost:&#x27; &#x27
 egrep &#x27;123|abc&#x27; filename // 用egrep同样可以实现
 awk &#x27;/123|abc/&#x27; filename // awk 的实现方式2、与操作
 </code></pre>
+<hr />
 <ul>
 <li>从itg log中抽出itg输入</li>
 </ul>
 <pre><code>grep INPUT log  -r | awk -F &#x27;message:&#x27; &#x27;{print $2}&#x27;  | sed &#x27;s/.$//&#x27; &gt; train.input
 </code></pre>
+<hr />
 <ul>
 <li>sed 替换</li>
 </ul>
 <pre><code>sed -i &quot;s/9231/$port/g&quot; ./conf/$port.conf
 </code></pre>
+<hr />
 <ul>
 <li>sed替换某几行的内容</li>
 </ul>
@@ -40,21 +45,25 @@ sed &#x27;2,3s/123/456/&#x27; a.txt
 说明g进行了一个全局的搜索
 不带g的话，只是匹配每行的第一个字段，后面的不管
 </code></pre>
+<hr />
 <ul>
 <li>git 提交</li>
 </ul>
 <pre><code>git push origin HEAD:refs/for/wjw-xiaoduzaijia-sprint8.5
 </code></pre>
+<hr />
 <ul>
 <li>简单查看diff的文件</li>
 </ul>
 <pre><code>git diff --stat
 </code></pre>
+<hr />
 <ul>
 <li>在输出行中去除重复行</li>
 </ul>
 <pre><code>sort -u seq.txt
 </code></pre>
+<hr />
 <ul>
 <li>bash c 风格循环</li>
 </ul>
@@ -66,30 +75,37 @@ do
 done
 echo $ans
 </code></pre>
+<hr />
 <ul>
 <li>查找文件text中第三行的内容</li>
 </ul>
 <pre><code> sed -n &#x27;3p&#x27; text
 </code></pre>
+<hr />
 <ul>
 <li>查找文件text中第二行到第四行的内容</li>
 </ul>
 <pre><code>sed -n &#x27;2,4p&#x27; text
 </code></pre>
+<hr />
 <ul>
 <li>删除空行</li>
 </ul>
 <pre><code>cat 文件名 |sed ‘/^$/d&#x27;
 </code></pre>
+<hr />
 <ul>
 <li>找rank_word</li>
 </ul>
 <pre><code>grep OUTPUT . -r | awk -F &#x27;rank_result:|\\]\\[rewrite_result&#x27; &#x27;{print $2}&#x27; &gt; rank_word
 </code></pre>
-<p><img src="https://github.com/wjwever/gitblog/assets/50772316/ce4eb80b-f980-4372-891b-b2dc00ea2812" alt="image" /></p>
+<h2><img src="https://github.com/wjwever/gitblog/assets/50772316/ce4eb80b-f980-4372-891b-b2dc00ea2812" alt="image" /></h2>
 <ul>
 <li>查看redhat版本
 <code>cat /etc/redhat-release</code></li>
+</ul>
+<hr />
+<ul>
 <li>sort -k</li>
 </ul>
 <pre><code>banana:30:5.5 
@@ -98,9 +114,13 @@ pear:90:2.3
 orange:20:3.4
 sort -n -k 2 -t : facebook.txt
 </code></pre>
+<hr />
 <ul>
 <li>awk删除文件最后一列
 <code>awk  &#x27;{$NF=&quot;&quot;;print}&#x27; a.txt</code></li>
+</ul>
+<hr />
+<ul>
 <li>获取文件全路径名</li>
 </ul>
 <pre><code>方法一:
@@ -111,35 +131,42 @@ python -c &#x27;import os; print(os.path.abspath(&quot;note.txt&quot;))&#x27;
 方法三:
 ls $PWD/note.txt
 </code></pre>
+<hr />
 <ul>
 <li>获取文件名:</li>
 </ul>
 <pre><code>basename /home/cuizhiliang344/note.txt
 note.txt
 </code></pre>
+<hr />
 <ul>
 <li>获取目录:</li>
 </ul>
 <pre><code>dirname /home/cuizhiliang344/note.txt
 /home/cuizhiliang344
 </code></pre>
+<hr />
 <ul>
 <li>python 打开文本骚操作
 <code>top_intents = set([x.strip() for x in open(intent_file, &#x27;r&#x27;)])</code></li>
 </ul>
-<p>*文本编码格式转换
-<code>iconv -f gb18030 -t utf-8 file1.txt -o file2.txt</code></p>
+<hr />
+<p>*文本编码格式转换</p>
+<pre><code>iconv -f gb18030 -t utf-8 file1.txt -o file2.txt
+</code></pre>
+<hr />
 <ul>
 <li>tcp socket
 <img src="https://github.com/wjwever/gitblog/assets/50772316/be220a7a-58e1-41d3-803d-11babcf85cc5" alt="image" /></li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/26" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T03:59:25+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/25</id><title>Linux限速解压</title><updated>2023-06-12T04:58:46.796916+00:00</updated><content type="html"><![CDATA[<p>需要安装pv工具
+<hr />
+]]></content><link href="https://github.com/wjwever/gitblog/issues/26" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T03:59:25+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/25</id><title>Linux限速解压</title><updated>2023-06-12T05:04:16.668998+00:00</updated><content type="html"><![CDATA[<p>需要安装pv工具
 cat test.sql.tar | pv -e -t -b -L 10M |tar -xf -
 <a href="https://linux.cn/article-6734-1.html">https://linux.cn/article-6734-1.html</a>
 <a href="https://loveyu.org/5693.html">https://loveyu.org/5693.html</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/25" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T03:21:29+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/24</id><title>c++如何释放vector的内存</title><updated>2023-06-12T04:58:46.900795+00:00</updated><content type="html"><![CDATA[<p>vector<T>().swap(x);</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/25" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T03:21:29+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/24</id><title>c++如何释放vector的内存</title><updated>2023-06-12T05:04:16.816586+00:00</updated><content type="html"><![CDATA[<p>vector<T>().swap(x);</p>
 <p><a href="https://zhuanlan.zhihu.com/p/338390842">https://zhuanlan.zhihu.com/p/338390842</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/24" rel="alternate"/><category term="C++开发"/><published>2023-06-12T03:09:09+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/23</id><title>git如何撤销</title><updated>2023-06-12T04:58:46.986343+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/24" rel="alternate"/><category term="C++开发"/><published>2023-06-12T03:09:09+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/23</id><title>git如何撤销</title><updated>2023-06-12T05:04:16.952506+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p>情况一：文件被修改了，但未执行git add操作（working tree内撤销）
 git checkout fileName
@@ -163,8 +190,8 @@ git reset [--hard|soft|mixed|merge|keep] [commit|HEAD]</p>
 </li>
 </ul>
 <p><a href="https://blog.csdn.net/ligang2585116/article/details/71094887">https://blog.csdn.net/ligang2585116/article/details/71094887</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/23" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T02:41:56+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/22</id><title>关于这个博客</title><updated>2023-06-12T04:58:47.078073+00:00</updated><content type="html"><![CDATA[<p>TODO 内容不能为空</p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/22" rel="alternate"/><category term="Top"/><published>2023-06-11T15:21:51+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/21</id><title>个人简历</title><updated>2023-06-12T04:58:47.163823+00:00</updated><content type="html"><![CDATA[<h1>王佳伟</h1>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/23" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T02:41:56+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/22</id><title>关于这个博客</title><updated>2023-06-12T05:04:17.094617+00:00</updated><content type="html"><![CDATA[<p>TODO 内容不能为空</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/22" rel="alternate"/><category term="Top"/><published>2023-06-11T15:21:51+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/21</id><title>个人简历</title><updated>2023-06-12T05:04:17.235571+00:00</updated><content type="html"><![CDATA[<h1>王佳伟</h1>
 <p>（HR会打印你的简历，用于在面试的时候联系，所以联系方式放到最上边会比较方便）</p>
 <ul>
 <li>性别：男</li>
@@ -229,9 +256,9 @@ git reset [--hard|soft|mixed|merge|keep] [commit|HEAD]</p>
 <h1>致谢</h1>
 <h2>感谢您花时间阅读我的简历，期待能有机会和您共事。</h2>
 <p>这分简历感谢：<a href="https://github.com/geekcompany/ResumeSample/blob/master/c.md">https://github.com/geekcompany/ResumeSample/blob/master/c.md</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/21" rel="alternate"/><category term="Top"/><published>2023-06-11T15:02:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/20</id><title>github 代码比较</title><updated>2023-06-12T04:58:47.277970+00:00</updated><content type="html"><![CDATA[<p>在百度用icode代码管理工具，网页有专门的代码比较入口，可以轻松的比较两个commit的不同，貌似github也有：
+]]></content><link href="https://github.com/wjwever/gitblog/issues/21" rel="alternate"/><category term="Top"/><published>2023-06-11T15:02:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/20</id><title>github 代码比较</title><updated>2023-06-12T05:04:17.388182+00:00</updated><content type="html"><![CDATA[<p>在百度用icode代码管理工具，网页有专门的代码比较入口，可以轻松的比较两个commit的不同，貌似github也有：
 参考网页：<a href="https://www.null123.com/question/detail-2608798.html">https://www.null123.com/question/detail-2608798.html</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/20" rel="alternate"/><category term="杂七杂八"/><published>2023-06-11T14:28:47+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/19</id><title>开始使用vscode</title><updated>2023-06-12T04:58:47.372129+00:00</updated><content type="html"><![CDATA[<p>写代码快6年了，一直都是用vim，自己DIY配置，这个方式可能已经过时了。。。。
+]]></content><link href="https://github.com/wjwever/gitblog/issues/20" rel="alternate"/><category term="杂七杂八"/><published>2023-06-11T14:28:47+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/19</id><title>开始使用vscode</title><updated>2023-06-12T05:04:17.507769+00:00</updated><content type="html"><![CDATA[<p>写代码快6年了，一直都是用vim，自己DIY配置，这个方式可能已经过时了。。。。
 今天开始入坑vscode，享受一下各种丰富的插件带来的效率提升</p>
 <p>体验感受：</p>
 <ul>
@@ -245,7 +272,7 @@ git reset [--hard|soft|mixed|merge|keep] [commit|HEAD]</p>
 安装：<a href="https://zhuanlan.zhihu.com/p/113222681">https://zhuanlan.zhihu.com/p/113222681</a>
 插件：<a href="https://zhuanlan.zhihu.com/p/112016680">https://zhuanlan.zhihu.com/p/112016680</a>
 <a href="https://blog.csdn.net/libusi001/article/details/124309613">https://blog.csdn.net/libusi001/article/details/124309613</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/19" rel="alternate"/><category term="杂七杂八"/><published>2023-06-10T09:36:55+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/18</id><title>Python 协程</title><updated>2023-06-12T04:58:47.471482+00:00</updated><content type="html"><![CDATA[<h2>上代码：</h2>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/19" rel="alternate"/><category term="杂七杂八"/><published>2023-06-10T09:36:55+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/18</id><title>Python 协程</title><updated>2023-06-12T05:04:17.634891+00:00</updated><content type="html"><![CDATA[<h2>上代码：</h2>
 <pre><code class="language-python">!/usr/bin/env python3
 # async.py
 
@@ -281,7 +308,7 @@ Two
 <a href="http://www.ruanyifeng.com/blog/2019/11/python-asyncio.html">http://www.ruanyifeng.com/blog/2019/11/python-asyncio.html</a>
 <a href="https://cloud.tencent.com/developer/inventory/5723/article/1639528">https://cloud.tencent.com/developer/inventory/5723/article/1639528</a>
 <a href="https://zhuanlan.zhihu.com/p/137057192">https://zhuanlan.zhihu.com/p/137057192</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/18" rel="alternate"/><category term="杂七杂八"/><published>2023-06-04T09:59:44+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/17</id><title>2023代办事项</title><updated>2023-06-12T04:58:47.576577+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/18" rel="alternate"/><category term="杂七杂八"/><published>2023-06-04T09:59:44+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/17</id><title>2023代办事项</title><updated>2023-06-12T05:04:17.789867+00:00</updated><content type="html"><![CDATA[<ul>
 <li><input disabled="" type="checkbox"> 考驾照</li>
 <li><input disabled="" type="checkbox"> cuda编程学习</li>
 <li><input disabled="" type="checkbox"> 读书30本</li>
@@ -289,7 +316,7 @@ Two
 <li><input disabled="" type="checkbox"> vue学习</li>
 <li><input disabled="" type="checkbox"> 字幕数据挖掘</li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/17" rel="alternate"/><category term="待办事项"/><published>2023-06-01T08:24:04+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/16</id><title>《字节跳动：从0到1的秘密》</title><updated>2023-06-12T04:58:47.693090+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/17" rel="alternate"/><category term="待办事项"/><published>2023-06-01T08:24:04+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/16</id><title>《字节跳动：从0到1的秘密》</title><updated>2023-06-12T05:04:17.921645+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p>张一鸣在处理员工管理问题时素以态度温和著称。他若是不满员工的表现，会温和地讲道理，还会给予真诚的鼓励，他用这样的办法来解决问题，员工们称这种方法有其独特的魔力。包括梁汝波在内的许多人都说，张一鸣认为愤怒是一种无用的情绪，是一种精神上的懒惰。相反，他努力追求一种“介于轻度喜悦和轻度抑郁之间”的理想状态。</p>
 </li>
@@ -300,7 +327,7 @@ Two
 <p>“就像扎克伯格创办脸书网连接了人和人，特拉维斯·卡兰尼克创办优步连接了人和车，今日头条是让信息和人实现更广泛和高效率的匹配。”张一鸣后来这样描述这款新旗舰产品的愿景。团队开始带着开阔的视野，开发一个更有野心的应用程序，以聚合和组织来自互联网的许多内容。这是一款以大数据和机器学习能力为驱动力的应用程序，可以根据人们的个性化偏好为他们提供量身定制的信息源，而且无须人类管理员。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/16" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:30:46+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/15</id><title>《选择》</title><updated>2023-06-12T04:58:47.775517+00:00</updated><content type="html"><![CDATA[<h2>渴望胜利 心得总结</h2>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/16" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:30:46+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/15</id><title>《选择》</title><updated>2023-06-12T05:04:18.067092+00:00</updated><content type="html"><![CDATA[<h2>渴望胜利 心得总结</h2>
 <ul>
 <li>
 <p>确定优先级：人不能太贪心，不要同时做很多件事。只专注于最关键的几件事，才能一步步走向胜利。</p>
@@ -400,7 +427,7 @@ Two
 <p>其实，人生规划也好，职业生涯的规划也好，并没有一个正确与错误的明确定义。每个人都可能在自己的人生路上看到一些机会。关键在于，每个人如何真正发挥好拥有的资源，并激发自己的潜力。这就有点像玩扑克牌——手上拿到的是什么牌，又如何把这副牌打到最好？这一点很重要。每个人手上拿到的牌都不一样。无论拿到的是怎样的牌，都要尽量去打好，这也是人生有趣的地方。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/15" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:17:34+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-06-12T04:58:47.882891+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/15" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:17:34+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-06-12T05:04:18.222682+00:00</updated><content type="html"><![CDATA[<ul>
 <li>在代码目录下生成ctags：</li>
 </ul>
 <pre><code class="language-bash">ctags -R   --languages=c++ --langmap=c++:+.inl -h +.inl --c++-kinds=+px --fields=+aiKSz --extra=+q   --exclude=platform_mgr/* --exclude=android-ndk-r11c/* --exclude=output/* -f ./tags
@@ -418,7 +445,7 @@ Two
 <blockquote>
 <p>参考：<a href="https://blog.csdn.net/sinat_30603081/article/details/111192247">https://blog.csdn.net/sinat_30603081/article/details/111192247</a></p>
 </blockquote>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-06-12T04:58:47.978001+00:00</updated><content type="html"><![CDATA[<p>学习资料
+]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-06-12T05:04:18.350576+00:00</updated><content type="html"><![CDATA[<p>学习资料
 （1）《CUDA by example》
 （2）<a href="https://github.com/tpn/cuda-by-example">https://github.com/tpn/cuda-by-example</a></p>
 ]]></content><link href="https://github.com/wjwever/gitblog/issues/10" rel="alternate"/><category term="cuda"/><published>2023-05-29T13:45:27+00:00</published></entry></feed>
