@@ -17,10 +17,16 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [开始学习cuda](https://github.com/wjwever/gitblog/issues/10)--2023-05-29
 ## 开发工具
 - [Ctags使用方法](https://github.com/wjwever/gitblog/issues/13)--2023-05-29
+## C++开发
+- [c++如何释放vector的内存](https://github.com/wjwever/gitblog/issues/24)--2023-06-12
 ## 待办事项
 - [2023代办事项](https://github.com/wjwever/gitblog/issues/17)--2023-06-01
-## 生活笔记
+## 杂七杂八
+- [Linux限速解压](https://github.com/wjwever/gitblog/issues/25)--2023-06-12
+- [git如何撤销](https://github.com/wjwever/gitblog/issues/23)--2023-06-12
+- [github 代码比较](https://github.com/wjwever/gitblog/issues/20)--2023-06-11
 - [开始使用vscode](https://github.com/wjwever/gitblog/issues/19)--2023-06-10
+- [Python 协程](https://github.com/wjwever/gitblog/issues/18)--2023-06-04
 ## 读书笔记
 - [《字节跳动：从0到1的秘密》](https://github.com/wjwever/gitblog/issues/16)--2023-06-01
 - [《选择》](https://github.com/wjwever/gitblog/issues/15)--2023-06-01
