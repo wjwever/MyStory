@@ -8,11 +8,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [关于这个博客](https://github.com/wjwever/gitblog/issues/22)--2023-06-11
 - [个人简历](https://github.com/wjwever/gitblog/issues/21)--2023-06-11
 ## 最近更新
+- [beam search](https://github.com/wjwever/gitblog/issues/30)--2023-06-12
 - [PCM数据格式](https://github.com/wjwever/gitblog/issues/29)--2023-06-12
 - [先验概率和后验概率](https://github.com/wjwever/gitblog/issues/28)--2023-06-12
 - [c++运算符优先级](https://github.com/wjwever/gitblog/issues/27)--2023-06-12
 - [shell scripts](https://github.com/wjwever/gitblog/issues/26)--2023-06-12
-- [Linux限速解压](https://github.com/wjwever/gitblog/issues/25)--2023-06-12
 ## cuda
 - [开始学习cuda](https://github.com/wjwever/gitblog/issues/10)--2023-05-29
 ## 开发工具
@@ -23,13 +23,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 待办事项
 - [2023代办事项](https://github.com/wjwever/gitblog/issues/17)--2023-06-01
 ## 杂七杂八
+- [PCM数据格式](https://github.com/wjwever/gitblog/issues/29)--2023-06-12
 - [先验概率和后验概率](https://github.com/wjwever/gitblog/issues/28)--2023-06-12
 - [shell scripts](https://github.com/wjwever/gitblog/issues/26)--2023-06-12
 - [Linux限速解压](https://github.com/wjwever/gitblog/issues/25)--2023-06-12
 - [git如何撤销](https://github.com/wjwever/gitblog/issues/23)--2023-06-12
-- [github 代码比较](https://github.com/wjwever/gitblog/issues/20)--2023-06-11
 <details><summary>显示更多</summary>
 
+- [github 代码比较](https://github.com/wjwever/gitblog/issues/20)--2023-06-11
 - [开始使用vscode](https://github.com/wjwever/gitblog/issues/19)--2023-06-10
 - [Python 协程](https://github.com/wjwever/gitblog/issues/18)--2023-06-04
 </details>
