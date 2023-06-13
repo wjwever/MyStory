@@ -9,11 +9,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [个人简历](https://github.com/wjwever/gitblog/issues/21)--2023-06-11
 - [2023代办事项](https://github.com/wjwever/gitblog/issues/17)--2023-06-01
 ## 最近更新
+- [C++ 编译系统BLADE](https://github.com/wjwever/gitblog/issues/35)--2023-06-13
 - [c++ clock函数的坑](https://github.com/wjwever/gitblog/issues/34)--2023-06-13
 - [C++ lambda表达式](https://github.com/wjwever/gitblog/issues/33)--2023-06-13
 - [c++编译过程阅读笔记](https://github.com/wjwever/gitblog/issues/32)--2023-06-12
 - [vim-surround插件](https://github.com/wjwever/gitblog/issues/31)--2023-06-12
-- [beam search](https://github.com/wjwever/gitblog/issues/30)--2023-06-12
 ## cuda
 - [开始学习cuda](https://github.com/wjwever/gitblog/issues/10)--2023-05-29
 ## 开发工具
