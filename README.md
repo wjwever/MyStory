@@ -11,7 +11,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 最近更新
 - [c++ clock函数的坑](https://github.com/wjwever/gitblog/issues/34)--2023-06-13
 - [C++ lambda表达式](https://github.com/wjwever/gitblog/issues/33)--2023-06-13
-- [gcc_g++编译过程阅读笔记](https://github.com/wjwever/gitblog/issues/32)--2023-06-12
+- [c++编译过程阅读笔记](https://github.com/wjwever/gitblog/issues/32)--2023-06-12
 - [vim-surround插件](https://github.com/wjwever/gitblog/issues/31)--2023-06-12
 - [beam search](https://github.com/wjwever/gitblog/issues/30)--2023-06-12
 ## cuda
@@ -23,7 +23,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## C++开发
 - [c++ clock函数的坑](https://github.com/wjwever/gitblog/issues/34)--2023-06-13
 - [C++ lambda表达式](https://github.com/wjwever/gitblog/issues/33)--2023-06-13
-- [gcc_g++编译过程阅读笔记](https://github.com/wjwever/gitblog/issues/32)--2023-06-12
+- [c++编译过程阅读笔记](https://github.com/wjwever/gitblog/issues/32)--2023-06-12
 - [c++运算符优先级](https://github.com/wjwever/gitblog/issues/27)--2023-06-12
 - [c++如何释放vector的内存](https://github.com/wjwever/gitblog/issues/24)--2023-06-12
 ## 杂七杂八
