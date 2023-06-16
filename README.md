@@ -9,7 +9,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [个人简历](https://github.com/wjwever/gitblog/issues/21)--2023-06-11
 - [2023代办事项](https://github.com/wjwever/gitblog/issues/17)--2023-06-01
 ## 最近更新
-- [Python dataload学习](https://github.com/wjwever/gitblog/issues/38)--2023-06-16
+- [pytorch dataload学习](https://github.com/wjwever/gitblog/issues/38)--2023-06-16
 - [c++ 类的静态函数提示找不到定义](https://github.com/wjwever/gitblog/issues/37)--2023-06-16
 - [c++ 符号暴露问题](https://github.com/wjwever/gitblog/issues/36)--2023-06-16
 - [C++ 编译系统BLADE](https://github.com/wjwever/gitblog/issues/35)--2023-06-13
