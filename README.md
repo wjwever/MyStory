@@ -9,11 +9,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [个人简历](https://github.com/wjwever/gitblog/issues/21)--2023-06-11
 - [2023代办事项](https://github.com/wjwever/gitblog/issues/17)--2023-06-01
 ## 最近更新
+- [代码生成工具](https://github.com/wjwever/gitblog/issues/39)--2023-06-17
 - [pytorch dataload学习](https://github.com/wjwever/gitblog/issues/38)--2023-06-16
 - [c++ 类的静态函数提示找不到定义](https://github.com/wjwever/gitblog/issues/37)--2023-06-16
 - [c++ 符号暴露问题](https://github.com/wjwever/gitblog/issues/36)--2023-06-16
 - [C++ 编译系统BLADE](https://github.com/wjwever/gitblog/issues/35)--2023-06-13
-- [c++ clock函数的坑](https://github.com/wjwever/gitblog/issues/34)--2023-06-13
 ## cuda
 - [开始学习cuda](https://github.com/wjwever/gitblog/issues/10)--2023-05-29
 ## 开发工具
@@ -34,13 +34,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 杂七杂八
+- [代码生成工具](https://github.com/wjwever/gitblog/issues/39)--2023-06-17
 - [pytorch dataload学习](https://github.com/wjwever/gitblog/issues/38)--2023-06-16
 - [beam search](https://github.com/wjwever/gitblog/issues/30)--2023-06-12
 - [PCM数据格式](https://github.com/wjwever/gitblog/issues/29)--2023-06-12
 - [先验概率和后验概率](https://github.com/wjwever/gitblog/issues/28)--2023-06-12
-- [shell scripts](https://github.com/wjwever/gitblog/issues/26)--2023-06-12
 <details><summary>显示更多</summary>
 
+- [shell scripts](https://github.com/wjwever/gitblog/issues/26)--2023-06-12
 - [Linux限速解压](https://github.com/wjwever/gitblog/issues/25)--2023-06-12
 - [git如何撤销](https://github.com/wjwever/gitblog/issues/23)--2023-06-12
 - [github 代码比较](https://github.com/wjwever/gitblog/issues/20)--2023-06-11
