@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-06-17T13:57:52.814261+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/40</id><title>wenet学习</title><updated>2023-06-17T13:57:53.205310+00:00</updated><content type="html"><![CDATA[<h2>compute cmnv</h2>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/wjwever/gitblog</id><title>RSS feed of wjwever's gitblog</title><updated>2023-06-18T07:28:01.354372+00:00</updated><author><name>wjwever</name><email>1216451203@qq.com</email></author><link href="https://github.com/wjwever/gitblog"/><link href="https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/wjwever/gitblog/issues/40</id><title>wenet学习</title><updated>2023-06-18T07:28:01.634624+00:00</updated><content type="html"><![CDATA[<h2>compute cmnv</h2>
 <p>代码在tools/compute_cmvn_stat.py中，核心代码如下：</p>
 <pre><code class="language-python">            waveform = waveform * (1 &lt;&lt; 15)
             if self.resample_rate != 0 and self.resample_rate != sample_rate:
@@ -34,10 +34,11 @@ if [ ${stage} -le 1 ] &amp;&amp; [ ${stop_stage} -ge 1 ]; then
     --out_cmvn data/$train_set/global_cmvn
 fi
 </code></pre>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/40" rel="alternate"/><category term="wenet"/><published>2023-06-17T13:57:19+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/39</id><title>代码生成工具</title><updated>2023-06-17T13:57:53.368520+00:00</updated><content type="html"><![CDATA[<p>codewisper，<a href="https://www.bilibili.com/video/BV1Ch4y1g7bb/?spm_id_from=333.1007.tianma.1-2-2.click&amp;vd_source=abfee16ef2590619e4f7f98a1dcab411">https://www.bilibili.com/video/BV1Ch4y1g7bb/?spm_id_from=333.1007.tianma.1-2-2.click&amp;vd_source=abfee16ef2590619e4f7f98a1dcab411</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/39" rel="alternate"/><category term="杂七杂八"/><published>2023-06-17T02:33:55+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/38</id><title>pytorch dataload学习</title><updated>2023-06-17T13:57:53.580253+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.csdn.net/weixin_35757704/article/details/118857863">https://blog.csdn.net/weixin_35757704/article/details/118857863</a>
+<h2>降采样class Conv2dSubsampling4(BaseSubsampling):</h2>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/40" rel="alternate"/><category term="wenet"/><published>2023-06-17T13:57:19+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/39</id><title>代码生成工具</title><updated>2023-06-18T07:28:01.736514+00:00</updated><content type="html"><![CDATA[<p>codewisper，<a href="https://www.bilibili.com/video/BV1Ch4y1g7bb/?spm_id_from=333.1007.tianma.1-2-2.click&amp;vd_source=abfee16ef2590619e4f7f98a1dcab411">https://www.bilibili.com/video/BV1Ch4y1g7bb/?spm_id_from=333.1007.tianma.1-2-2.click&amp;vd_source=abfee16ef2590619e4f7f98a1dcab411</a></p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/39" rel="alternate"/><category term="杂七杂八"/><published>2023-06-17T02:33:55+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/38</id><title>pytorch dataload学习</title><updated>2023-06-18T07:28:01.847018+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.csdn.net/weixin_35757704/article/details/118857863">https://blog.csdn.net/weixin_35757704/article/details/118857863</a>
 <a href="https://blog.csdn.net/weixin_35757704/article/details/119241547">https://blog.csdn.net/weixin_35757704/article/details/119241547</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/38" rel="alternate"/><category term="杂七杂八"/><published>2023-06-16T07:39:58+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/37</id><title>c++ 类的静态函数提示找不到定义</title><updated>2023-06-17T13:57:53.754718+00:00</updated><content type="html"><![CDATA[<p>公司代码两个同名的类，位于不同的命名空间，编译的时候只能找到一个，死活找不到另一个，需要仔细研究一下
+]]></content><link href="https://github.com/wjwever/gitblog/issues/38" rel="alternate"/><category term="杂七杂八"/><published>2023-06-16T07:39:58+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/37</id><title>c++ 类的静态函数提示找不到定义</title><updated>2023-06-18T07:28:01.939396+00:00</updated><content type="html"><![CDATA[<p>公司代码两个同名的类，位于不同的命名空间，编译的时候只能找到一个，死活找不到另一个，需要仔细研究一下
 周末在家试了下，没有复现，比较奇怪，对命名空间这块确实不太熟悉，需要加强。
 类A，有一个lower的静态函数</p>
 <pre><code class="language-c++">#include &lt;string&gt;
@@ -79,9 +80,9 @@ int main() {
 
 </code></pre>
 <p>代码：<a href="https://github.com/wjwever/cpp-extensions/tree/master/issue%2337">https://github.com/wjwever/cpp-extensions/tree/master/issue%2337</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/37" rel="alternate"/><category term="c++开发"/><published>2023-06-16T03:23:31+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/36</id><title>c++ 符号暴露问题</title><updated>2023-06-17T13:57:53.919814+00:00</updated><content type="html"><![CDATA[<p>问题：
+]]></content><link href="https://github.com/wjwever/gitblog/issues/37" rel="alternate"/><category term="c++开发"/><published>2023-06-16T03:23:31+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/36</id><title>c++ 符号暴露问题</title><updated>2023-06-18T07:28:02.039589+00:00</updated><content type="html"><![CDATA[<p>问题：
 代码里有静态库libsta.a，还有一个动态库libdy.so，编译的时候动态库引用了静态库的A函数。后续更新动态库，使用A、B函数。这时候报错B函数找不到符号，需要仔细研究一下。</p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/36" rel="alternate"/><category term="c++开发"/><published>2023-06-16T03:21:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/35</id><title>c++ 编译系统BLADE</title><updated>2023-06-17T13:57:54.074432+00:00</updated><content type="html"><![CDATA[<h2>安装依赖</h2>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/36" rel="alternate"/><category term="c++开发"/><published>2023-06-16T03:21:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/35</id><title>c++ 编译系统BLADE</title><updated>2023-06-18T07:28:02.137412+00:00</updated><content type="html"><![CDATA[<h2>安装依赖</h2>
 <p>blade的官方文档  <a href="https://github.com/chen3feng/blade-build/blob/master/doc/zh_CN/prerequisites.md">外部软件依赖</a>提到了安装的一些依赖:</p>
 <blockquote>
 <p>Blade 运行时需要以下依赖：</p>
@@ -147,9 +148,9 @@ java － maven
 不过 blade效果也是很不错的，相比cmake，好用太多了，以后业务项目都用blade了。</p>
 <h2>参考文档</h2>
 <p><a href="https://github.com/chen3feng/blade-build/tree/master/doc/zh_CN">https://github.com/chen3feng/blade-build/tree/master/doc/zh_CN</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/35" rel="alternate"/><category term="c++开发"/><published>2023-06-13T08:16:54+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/34</id><title>c++ clock函数的坑</title><updated>2023-06-17T13:57:54.275501+00:00</updated><content type="html"><![CDATA[<p><img src="https://github.com/wjwever/gitblog/assets/50772316/3302a969-832b-4877-bddf-206eadebe681" alt="b0efac9e6230de62f23baf1636133b3b" />
+]]></content><link href="https://github.com/wjwever/gitblog/issues/35" rel="alternate"/><category term="c++开发"/><published>2023-06-13T08:16:54+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/34</id><title>c++ clock函数的坑</title><updated>2023-06-18T07:28:02.249226+00:00</updated><content type="html"><![CDATA[<p><img src="https://github.com/wjwever/gitblog/assets/50772316/3302a969-832b-4877-bddf-206eadebe681" alt="b0efac9e6230de62f23baf1636133b3b" />
 <a href="https://blog.csdn.net/iLOVEJohnny/article/details/104602557">https://blog.csdn.net/iLOVEJohnny/article/details/104602557</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/34" rel="alternate"/><category term="c++开发"/><published>2023-06-13T06:24:22+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/33</id><title>C++ lambda表达式</title><updated>2023-06-17T13:57:54.445733+00:00</updated><content type="html"><![CDATA[<p>lambda表达式简单说就是一个匿名函数，如下是一个lambda表达式：</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/34" rel="alternate"/><category term="c++开发"/><published>2023-06-13T06:24:22+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/33</id><title>C++ lambda表达式</title><updated>2023-06-18T07:28:02.350162+00:00</updated><content type="html"><![CDATA[<p>lambda表达式简单说就是一个匿名函数，如下是一个lambda表达式：</p>
 <pre><code>    auto vec_to_string = [](const std::vector&lt;float&gt;&amp; vec) -&gt; std::string {
         speech::decoder::Simpleostringstream stream;
         stream &lt;&lt; &quot;[&quot;;
@@ -165,7 +166,7 @@ java － maven
 </code></pre>
 <p><img src="https://github.com/wjwever/gitblog/assets/50772316/ca29917f-5523-4445-bbd6-2b270a56fc65" alt="image" />
 参考：<a href="https://blog.csdn.net/qq_37085158/article/details/124626913">https://blog.csdn.net/qq_37085158/article/details/124626913</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/33" rel="alternate"/><category term="c++开发"/><published>2023-06-13T05:29:58+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/32</id><title>c++编译过程阅读笔记</title><updated>2023-06-17T13:57:54.643255+00:00</updated><content type="html"><![CDATA[<h1>gcc/g++编译过程阅读笔记</h1>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/33" rel="alternate"/><category term="c++开发"/><published>2023-06-13T05:29:58+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/32</id><title>c++编译过程阅读笔记</title><updated>2023-06-18T07:28:02.476804+00:00</updated><content type="html"><![CDATA[<h1>gcc/g++编译过程阅读笔记</h1>
 <ol>
 <li>
 <p>预处理，生成.i的文件</p>
@@ -205,7 +206,7 @@ java － maven
 <p>测试可执行程序main是否已经链接的动态库libdynamic.so，如果列出了libdynamic.so，那么就说明正常链接了。可以执行以下命令：</p>
 <pre><code>ldd main
 </code></pre>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/32" rel="alternate"/><category term="c++开发"/><published>2023-06-12T05:31:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/31</id><title>vim-surround插件</title><updated>2023-06-17T13:57:54.819134+00:00</updated><content type="html"><![CDATA[<h2>简介</h2>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/32" rel="alternate"/><category term="c++开发"/><published>2023-06-12T05:31:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/31</id><title>vim-surround插件</title><updated>2023-06-18T07:28:02.577136+00:00</updated><content type="html"><![CDATA[<h2>简介</h2>
 <p>生命在于折腾，没事鼓捣一下vim，今天发现的一个杀手级插件是vim-surround，这个插件可以快速对一段文本加上扩号，引号等等，简直是编程大杀器。先来看看网有的评论吧：</p>
 <blockquote>
 <p><a href="https://github.com/tpope/vim-surround">&quot;vim-surround</a>，tpope大神的一款life-changed插件.&quot;
@@ -238,13 +239,13 @@ Plugin 'tpope/vim-surround'
 <li>&gt;给iostream加上尖括号
 <img src="https://github.com/wjwever/gitblog/assets/50772316/79891a7d-f463-4be3-aaa7-7fcecd37c64f" alt="image" /></li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/31" rel="alternate"/><category term="开发工具"/><published>2023-06-12T05:28:04+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/30</id><title>beam search</title><updated>2023-06-17T13:57:54.991271+00:00</updated><content type="html"><![CDATA[<p>学习beam search </p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/31" rel="alternate"/><category term="开发工具"/><published>2023-06-12T05:28:04+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/30</id><title>beam search</title><updated>2023-06-18T07:28:02.686583+00:00</updated><content type="html"><![CDATA[<p>学习beam search </p>
 <p>基础：</p>
 <p><a href="https://blog.csdn.net/guolindonggld/article/details/79938567">https://blog.csdn.net/guolindonggld/article/details/79938567</a></p>
 <p>进阶：</p>
 <p><a href="https://baijiahao.baidu.com/s?id=1676193446313598976&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1676193446313598976&amp;wfr=spider&amp;for=pc</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/30" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T05:22:18+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/29</id><title>PCM数据格式</title><updated>2023-06-17T13:57:55.186269+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.jianshu.com/p/e568f94cdf6a">https://www.jianshu.com/p/e568f94cdf6a</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/29" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T05:16:13+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/28</id><title>先验概率和后验概率</title><updated>2023-06-17T13:57:55.393497+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/30" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T05:22:18+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/29</id><title>PCM数据格式</title><updated>2023-06-18T07:28:02.777862+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.jianshu.com/p/e568f94cdf6a">https://www.jianshu.com/p/e568f94cdf6a</a></p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/29" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T05:16:13+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/28</id><title>先验概率和后验概率</title><updated>2023-06-18T07:28:02.881839+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>这两个概念一直搞得我很迷惑。这里用一个例子来区分一下。</p>
 </blockquote>
 <h2>先验概率</h2>
@@ -260,8 +261,8 @@ Plugin 'tpope/vim-surround'
 </blockquote>
 <p><a href="https://www.jianshu.com/p/0aeae4d82daa">https://www.jianshu.com/p/0aeae4d82daa</a>
 <a href="https://www.jianshu.com/p/0aeae4d82daa">https://www.jianshu.com/p/0aeae4d82daa</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/28" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T05:11:52+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/27</id><title>c++运算符优先级</title><updated>2023-06-17T13:57:55.575860+00:00</updated><content type="html"><![CDATA[<p><a href="https://en.cppreference.com/w/cpp/language/operator_precedence">https://en.cppreference.com/w/cpp/language/operator_precedence</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/27" rel="alternate"/><category term="c++开发"/><published>2023-06-12T05:07:23+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/26</id><title>shell scripts</title><updated>2023-06-17T13:57:55.738999+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/28" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T05:11:52+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/27</id><title>c++运算符优先级</title><updated>2023-06-18T07:28:02.992181+00:00</updated><content type="html"><![CDATA[<p><a href="https://en.cppreference.com/w/cpp/language/operator_precedence">https://en.cppreference.com/w/cpp/language/operator_precedence</a></p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/27" rel="alternate"/><category term="c++开发"/><published>2023-06-12T05:07:23+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/26</id><title>shell scripts</title><updated>2023-06-18T07:28:03.080248+00:00</updated><content type="html"><![CDATA[<ul>
 <li>统计itg超时数目</li>
 </ul>
 <pre><code>grep total_cost . -r | awk -F&#x27;total_cost:|us&#x27; &#x27;{if($2&gt;100000)print $2}&#x27;
@@ -423,13 +424,13 @@ note.txt
 <img src="https://github.com/wjwever/gitblog/assets/50772316/ad2aac13-bda8-4c84-9704-da8be4e9556a" alt="image" /></li>
 </ul>
 <hr />
-]]></content><link href="https://github.com/wjwever/gitblog/issues/26" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T03:59:25+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/25</id><title>Linux限速解压</title><updated>2023-06-17T13:57:55.930959+00:00</updated><content type="html"><![CDATA[<p>需要安装pv工具
+]]></content><link href="https://github.com/wjwever/gitblog/issues/26" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T03:59:25+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/25</id><title>Linux限速解压</title><updated>2023-06-18T07:28:03.191443+00:00</updated><content type="html"><![CDATA[<p>需要安装pv工具
 cat test.sql.tar | pv -e -t -b -L 10M |tar -xf -
 <a href="https://linux.cn/article-6734-1.html">https://linux.cn/article-6734-1.html</a>
 <a href="https://loveyu.org/5693.html">https://loveyu.org/5693.html</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/25" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T03:21:29+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/24</id><title>c++如何释放vector的内存</title><updated>2023-06-17T13:57:56.101954+00:00</updated><content type="html"><![CDATA[<p>vector<T>().swap(x);</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/25" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T03:21:29+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/24</id><title>c++如何释放vector的内存</title><updated>2023-06-18T07:28:03.289896+00:00</updated><content type="html"><![CDATA[<p>vector<T>().swap(x);</p>
 <p><a href="https://zhuanlan.zhihu.com/p/338390842">https://zhuanlan.zhihu.com/p/338390842</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/24" rel="alternate"/><category term="c++开发"/><published>2023-06-12T03:09:09+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/23</id><title>git如何撤销</title><updated>2023-06-17T13:57:56.271373+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/24" rel="alternate"/><category term="c++开发"/><published>2023-06-12T03:09:09+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/23</id><title>git如何撤销</title><updated>2023-06-18T07:28:03.383113+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p>情况一：文件被修改了，但未执行git add操作（working tree内撤销）
 git checkout fileName
@@ -453,8 +454,8 @@ git reset [--hard|soft|mixed|merge|keep] [commit|HEAD]</p>
 </li>
 </ul>
 <p><a href="https://blog.csdn.net/ligang2585116/article/details/71094887">https://blog.csdn.net/ligang2585116/article/details/71094887</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/23" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T02:41:56+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/22</id><title>关于这个博客</title><updated>2023-06-17T13:57:56.460031+00:00</updated><content type="html"><![CDATA[<p>TODO 内容不能为空</p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/22" rel="alternate"/><category term="Top"/><published>2023-06-11T15:21:51+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/21</id><title>个人简历</title><updated>2023-06-17T13:57:56.624592+00:00</updated><content type="html"><![CDATA[<h1>王佳伟</h1>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/23" rel="alternate"/><category term="杂七杂八"/><published>2023-06-12T02:41:56+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/22</id><title>关于这个博客</title><updated>2023-06-18T07:28:03.473856+00:00</updated><content type="html"><![CDATA[<p>TODO 内容不能为空</p>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/22" rel="alternate"/><category term="Top"/><published>2023-06-11T15:21:51+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/21</id><title>个人简历</title><updated>2023-06-18T07:28:03.572361+00:00</updated><content type="html"><![CDATA[<h1>王佳伟</h1>
 <ul>
 <li>性别：男</li>
 <li>出生年月：1992/12 </li>
@@ -518,9 +519,9 @@ git reset [--hard|soft|mixed|merge|keep] [commit|HEAD]</p>
 <h1>致谢</h1>
 <h2>感谢您花时间阅读我的简历，期待能有机会和您共事。</h2>
 <p>这分简历感谢：<a href="https://github.com/geekcompany/ResumeSample/blob/master/c.md">https://github.com/geekcompany/ResumeSample/blob/master/c.md</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/21" rel="alternate"/><category term="Top"/><published>2023-06-11T15:02:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/20</id><title>github 代码比较</title><updated>2023-06-17T13:57:56.810879+00:00</updated><content type="html"><![CDATA[<p>在百度用icode代码管理工具，网页有专门的代码比较入口，可以轻松的比较两个commit的不同，貌似github也有：
+]]></content><link href="https://github.com/wjwever/gitblog/issues/21" rel="alternate"/><category term="Top"/><published>2023-06-11T15:02:33+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/20</id><title>github 代码比较</title><updated>2023-06-18T07:28:03.687243+00:00</updated><content type="html"><![CDATA[<p>在百度用icode代码管理工具，网页有专门的代码比较入口，可以轻松的比较两个commit的不同，貌似github也有：
 参考网页：<a href="https://www.null123.com/question/detail-2608798.html">https://www.null123.com/question/detail-2608798.html</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/20" rel="alternate"/><category term="杂七杂八"/><published>2023-06-11T14:28:47+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/19</id><title>开始使用vscode</title><updated>2023-06-17T13:57:56.993276+00:00</updated><content type="html"><![CDATA[<p>写代码快6年了，一直都是用vim，自己DIY配置，这个方式可能已经过时了。。。。
+]]></content><link href="https://github.com/wjwever/gitblog/issues/20" rel="alternate"/><category term="杂七杂八"/><published>2023-06-11T14:28:47+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/19</id><title>开始使用vscode</title><updated>2023-06-18T07:28:03.790801+00:00</updated><content type="html"><![CDATA[<p>写代码快6年了，一直都是用vim，自己DIY配置，这个方式可能已经过时了。。。。
 今天开始入坑vscode，享受一下各种丰富的插件带来的效率提升</p>
 <p>体验感受：</p>
 <ul>
@@ -534,7 +535,7 @@ git reset [--hard|soft|mixed|merge|keep] [commit|HEAD]</p>
 安装：<a href="https://zhuanlan.zhihu.com/p/113222681">https://zhuanlan.zhihu.com/p/113222681</a>
 插件：<a href="https://zhuanlan.zhihu.com/p/112016680">https://zhuanlan.zhihu.com/p/112016680</a>
 <a href="https://blog.csdn.net/libusi001/article/details/124309613">https://blog.csdn.net/libusi001/article/details/124309613</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/19" rel="alternate"/><category term="开发工具"/><published>2023-06-10T09:36:55+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/18</id><title>Python 协程</title><updated>2023-06-17T13:57:57.174060+00:00</updated><content type="html"><![CDATA[<h2>上代码：</h2>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/19" rel="alternate"/><category term="开发工具"/><published>2023-06-10T09:36:55+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/18</id><title>Python 协程</title><updated>2023-06-18T07:28:03.897774+00:00</updated><content type="html"><![CDATA[<h2>上代码：</h2>
 <pre><code class="language-python">!/usr/bin/env python3
 # async.py
 
@@ -570,7 +571,7 @@ Two
 <a href="http://www.ruanyifeng.com/blog/2019/11/python-asyncio.html">http://www.ruanyifeng.com/blog/2019/11/python-asyncio.html</a>
 <a href="https://cloud.tencent.com/developer/inventory/5723/article/1639528">https://cloud.tencent.com/developer/inventory/5723/article/1639528</a>
 <a href="https://zhuanlan.zhihu.com/p/137057192">https://zhuanlan.zhihu.com/p/137057192</a></p>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/18" rel="alternate"/><category term="杂七杂八"/><published>2023-06-04T09:59:44+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/17</id><title>2023代办事项</title><updated>2023-06-17T13:57:57.354633+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/18" rel="alternate"/><category term="杂七杂八"/><published>2023-06-04T09:59:44+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/17</id><title>2023代办事项</title><updated>2023-06-18T07:28:04.007811+00:00</updated><content type="html"><![CDATA[<ul>
 <li><input disabled="" type="checkbox"> 考驾照</li>
 <li><input disabled="" type="checkbox"> cuda编程学习</li>
 <li><input disabled="" type="checkbox"> 读书30本</li>
@@ -580,7 +581,7 @@ Two
 <li><input disabled="" type="checkbox"> paddle speech</li>
 <li><input disabled="" type="checkbox"> paddle ocr</li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/17" rel="alternate"/><category term="Top"/><published>2023-06-01T08:24:04+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/16</id><title>《字节跳动：从0到1的秘密》</title><updated>2023-06-17T13:57:57.512783+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/17" rel="alternate"/><category term="Top"/><published>2023-06-01T08:24:04+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/16</id><title>《字节跳动：从0到1的秘密》</title><updated>2023-06-18T07:28:04.111351+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p>张一鸣在处理员工管理问题时素以态度温和著称。他若是不满员工的表现，会温和地讲道理，还会给予真诚的鼓励，他用这样的办法来解决问题，员工们称这种方法有其独特的魔力。包括梁汝波在内的许多人都说，张一鸣认为愤怒是一种无用的情绪，是一种精神上的懒惰。相反，他努力追求一种“介于轻度喜悦和轻度抑郁之间”的理想状态。</p>
 </li>
@@ -591,7 +592,7 @@ Two
 <p>“就像扎克伯格创办脸书网连接了人和人，特拉维斯·卡兰尼克创办优步连接了人和车，今日头条是让信息和人实现更广泛和高效率的匹配。”张一鸣后来这样描述这款新旗舰产品的愿景。团队开始带着开阔的视野，开发一个更有野心的应用程序，以聚合和组织来自互联网的许多内容。这是一款以大数据和机器学习能力为驱动力的应用程序，可以根据人们的个性化偏好为他们提供量身定制的信息源，而且无须人类管理员。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/16" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:30:46+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/15</id><title>《选择》</title><updated>2023-06-17T13:57:57.684379+00:00</updated><content type="html"><![CDATA[<h2>渴望胜利 心得总结</h2>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/16" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:30:46+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/15</id><title>《选择》</title><updated>2023-06-18T07:28:04.217580+00:00</updated><content type="html"><![CDATA[<h2>渴望胜利 心得总结</h2>
 <ul>
 <li>
 <p>确定优先级：人不能太贪心，不要同时做很多件事。只专注于最关键的几件事，才能一步步走向胜利。</p>
@@ -691,7 +692,7 @@ Two
 <p>其实，人生规划也好，职业生涯的规划也好，并没有一个正确与错误的明确定义。每个人都可能在自己的人生路上看到一些机会。关键在于，每个人如何真正发挥好拥有的资源，并激发自己的潜力。这就有点像玩扑克牌——手上拿到的是什么牌，又如何把这副牌打到最好？这一点很重要。每个人手上拿到的牌都不一样。无论拿到的是怎样的牌，都要尽量去打好，这也是人生有趣的地方。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/15" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:17:34+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-06-17T13:57:57.868117+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/wjwever/gitblog/issues/15" rel="alternate"/><category term="读书笔记"/><published>2023-06-01T05:17:34+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/13</id><title>Ctags使用方法</title><updated>2023-06-18T07:28:04.327983+00:00</updated><content type="html"><![CDATA[<ul>
 <li>在代码目录下生成ctags：</li>
 </ul>
 <pre><code class="language-bash">ctags -R   --languages=c++ --langmap=c++:+.inl -h +.inl --c++-kinds=+px --fields=+aiKSz --extra=+q   --exclude=platform_mgr/* --exclude=android-ndk-r11c/* --exclude=output/* -f ./tags
@@ -709,7 +710,7 @@ Two
 <blockquote>
 <p>参考：<a href="https://blog.csdn.net/sinat_30603081/article/details/111192247">https://blog.csdn.net/sinat_30603081/article/details/111192247</a></p>
 </blockquote>
-]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-06-17T13:57:58.061289+00:00</updated><content type="html"><![CDATA[<p>学习资料
+]]></content><link href="https://github.com/wjwever/gitblog/issues/13" rel="alternate"/><category term="开发工具"/><published>2023-05-29T14:37:00+00:00</published></entry><entry><id>https://github.com/wjwever/gitblog/issues/10</id><title>开始学习cuda</title><updated>2023-06-18T07:28:04.423021+00:00</updated><content type="html"><![CDATA[<p>学习资料
 （1）《CUDA by example》
 （2）<a href="https://github.com/tpn/cuda-by-example">https://github.com/tpn/cuda-by-example</a></p>
 ]]></content><link href="https://github.com/wjwever/gitblog/issues/10" rel="alternate"/><category term="cuda"/><published>2023-05-29T13:45:27+00:00</published></entry></feed>

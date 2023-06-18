@@ -37,3 +37,5 @@ if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
     --out_cmvn data/$train_set/global_cmvn
 fi
 ```
+## 降采样class Conv2dSubsampling4(BaseSubsampling):
+
