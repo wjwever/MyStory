@@ -21,7 +21,7 @@
 * conv 卷积层
 * out 线性层
 * pos_enc 位置编码层
-## 代码
+## 代码分析
 ```python
 x = x.unsqueeze(1)  # (b, c=1, t, f)
 print("x.shape before conv", x.shape)
