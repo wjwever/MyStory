@@ -9,17 +9,17 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [个人简历](https://github.com/wjwever/gitblog/issues/21)--2023-06-11
 - [2023代办事项](https://github.com/wjwever/gitblog/issues/17)--2023-06-01
 ## 最近更新
+- [计算均值方差](https://github.com/wjwever/gitblog/issues/43)--2023-06-18
+- [降采样模块Conv2dSubsampling4](https://github.com/wjwever/gitblog/issues/42)--2023-06-18
 - [wenet transformer 模型](https://github.com/wjwever/gitblog/issues/41)--2023-06-18
 - [wenet学习](https://github.com/wjwever/gitblog/issues/40)--2023-06-17
 - [代码生成工具](https://github.com/wjwever/gitblog/issues/39)--2023-06-17
-- [pytorch dataload学习](https://github.com/wjwever/gitblog/issues/38)--2023-06-16
-- [c++ 类的静态函数提示找不到定义](https://github.com/wjwever/gitblog/issues/37)--2023-06-16
 ## cuda
 - [开始学习cuda](https://github.com/wjwever/gitblog/issues/10)--2023-05-29
 ## 开发工具
 - [vim-surround插件](https://github.com/wjwever/gitblog/issues/31)--2023-06-12
 - [开始使用vscode](https://github.com/wjwever/gitblog/issues/19)--2023-06-10
-- [Ctags使用方法](https://github.com/wjwever/gitblog/issues/13)--2023-05-29
+- [ctags使用方法](https://github.com/wjwever/gitblog/issues/13)--2023-05-29
 ## c++开发
 - [c++ 类的静态函数提示找不到定义](https://github.com/wjwever/gitblog/issues/37)--2023-06-16
 - [c++ 符号暴露问题](https://github.com/wjwever/gitblog/issues/36)--2023-06-16
@@ -34,6 +34,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## wenet
+- [计算均值方差](https://github.com/wjwever/gitblog/issues/43)--2023-06-18
+- [降采样模块Conv2dSubsampling4](https://github.com/wjwever/gitblog/issues/42)--2023-06-18
 - [wenet transformer 模型](https://github.com/wjwever/gitblog/issues/41)--2023-06-18
 - [wenet学习](https://github.com/wjwever/gitblog/issues/40)--2023-06-17
 ## 杂七杂八
