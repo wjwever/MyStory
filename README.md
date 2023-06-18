@@ -9,7 +9,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [个人简历](https://github.com/wjwever/gitblog/issues/21)--2023-06-11
 - [2023代办事项](https://github.com/wjwever/gitblog/issues/17)--2023-06-01
 ## 最近更新
-- [wenet](https://github.com/wjwever/gitblog/issues/41)--2023-06-18
+- [wenet transformer 模型](https://github.com/wjwever/gitblog/issues/41)--2023-06-18
 - [wenet学习](https://github.com/wjwever/gitblog/issues/40)--2023-06-17
 - [代码生成工具](https://github.com/wjwever/gitblog/issues/39)--2023-06-17
 - [pytorch dataload学习](https://github.com/wjwever/gitblog/issues/38)--2023-06-16
@@ -34,7 +34,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## wenet
-- [wenet](https://github.com/wjwever/gitblog/issues/41)--2023-06-18
+- [wenet transformer 模型](https://github.com/wjwever/gitblog/issues/41)--2023-06-18
 - [wenet学习](https://github.com/wjwever/gitblog/issues/40)--2023-06-17
 ## 杂七杂八
 - [代码生成工具](https://github.com/wjwever/gitblog/issues/39)--2023-06-17
