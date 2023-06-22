@@ -9,11 +9,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [个人简历](https://github.com/wjwever/gitblog/issues/21)--2023-06-11
 - [2023代办事项](https://github.com/wjwever/gitblog/issues/17)--2023-06-01
 ## 最近更新
+- [layer norm层](https://github.com/wjwever/gitblog/issues/44)--2023-06-22
 - [计算均值方差](https://github.com/wjwever/gitblog/issues/43)--2023-06-18
 - [降采样模块Conv2dSubsampling4](https://github.com/wjwever/gitblog/issues/42)--2023-06-18
 - [wenet transformer 模型](https://github.com/wjwever/gitblog/issues/41)--2023-06-18
 - [wenet学习](https://github.com/wjwever/gitblog/issues/40)--2023-06-17
-- [代码生成工具](https://github.com/wjwever/gitblog/issues/39)--2023-06-17
 ## cuda
 - [开始学习cuda](https://github.com/wjwever/gitblog/issues/10)--2023-05-29
 ## 开发工具
@@ -34,6 +34,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## wenet
+- [layer norm层](https://github.com/wjwever/gitblog/issues/44)--2023-06-22
 - [计算均值方差](https://github.com/wjwever/gitblog/issues/43)--2023-06-18
 - [降采样模块Conv2dSubsampling4](https://github.com/wjwever/gitblog/issues/42)--2023-06-18
 - [wenet transformer 模型](https://github.com/wjwever/gitblog/issues/41)--2023-06-18
