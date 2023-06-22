@@ -201,4 +201,5 @@ x = torch.matmul(p_attn, value)  # (batch, head, time1, d_k)  # p_attn = (12,4,9
 x 进行transpose操作 （12,98,4,64），再变换成（12,98,256），和送进去的shape一样，但是进行了attention操作
 再做一个linear线性层变换，维度还是（12,98,256）
 
+## self_attn 函数讲解
 https://zhuanlan.zhihu.com/p/338817680
