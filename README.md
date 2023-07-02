@@ -9,11 +9,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [个人简历](https://github.com/wjwever/gitblog/issues/21)--2023-06-11
 - [2023代办事项](https://github.com/wjwever/gitblog/issues/17)--2023-06-01
 ## 最近更新
-- [休息休息](https://github.com/wjwever/gitblog/issues/48)--2023-07-02
 - [一些杂想](https://github.com/wjwever/gitblog/issues/46)--2023-07-02
 - [add_sos_eos](https://github.com/wjwever/gitblog/issues/45)--2023-07-01
 - [layer norm层](https://github.com/wjwever/gitblog/issues/44)--2023-06-22
 - [计算均值方差](https://github.com/wjwever/gitblog/issues/43)--2023-06-18
+- [降采样模块Conv2dSubsampling4](https://github.com/wjwever/gitblog/issues/42)--2023-06-18
 ## cuda
 - [开始学习cuda](https://github.com/wjwever/gitblog/issues/10)--2023-05-29
 ## 开发工具
