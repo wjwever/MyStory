@@ -12,6 +12,8 @@ from lxml.etree import CDATA
 
 class Logger:
     def __init__(self, path, clevel=logging.DEBUG, Flevel=logging.DEBUG):
+        if (os.path.exists(path)):
+            os.remove(path)
         self.logger = logging.getLogger(path)
         self.logger.setLevel(logging.DEBUG)
         fmt = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s', '%Y-%m-%d %H:%M:%S')
@@ -361,4 +363,5 @@ if __name__ == "__main__":
         "--issue_number", help="issue_number", default=None, required=False
     )
     options = parser.parse_args()
+    LOG.debug("token:{options.github_token}")
     main(options.github_token, options.repo_name, options.issue_number)
