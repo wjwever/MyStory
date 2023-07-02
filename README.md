@@ -9,11 +9,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [个人简历](https://github.com/wjwever/gitblog/issues/21)--2023-06-11
 - [2023代办事项](https://github.com/wjwever/gitblog/issues/17)--2023-06-01
 ## 最近更新
+- [休息休息](https://github.com/wjwever/gitblog/issues/48)--2023-07-02
+- [一些杂想](https://github.com/wjwever/gitblog/issues/46)--2023-07-02
+- [add_sos_eos](https://github.com/wjwever/gitblog/issues/45)--2023-07-01
 - [layer norm层](https://github.com/wjwever/gitblog/issues/44)--2023-06-22
 - [计算均值方差](https://github.com/wjwever/gitblog/issues/43)--2023-06-18
-- [降采样模块Conv2dSubsampling4](https://github.com/wjwever/gitblog/issues/42)--2023-06-18
-- [wenet transformer 模型](https://github.com/wjwever/gitblog/issues/41)--2023-06-18
-- [wenet学习](https://github.com/wjwever/gitblog/issues/40)--2023-06-17
 ## cuda
 - [开始学习cuda](https://github.com/wjwever/gitblog/issues/10)--2023-05-29
 ## 开发工具
@@ -34,11 +34,16 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## wenet
+- [add_sos_eos](https://github.com/wjwever/gitblog/issues/45)--2023-07-01
 - [layer norm层](https://github.com/wjwever/gitblog/issues/44)--2023-06-22
 - [计算均值方差](https://github.com/wjwever/gitblog/issues/43)--2023-06-18
 - [降采样模块Conv2dSubsampling4](https://github.com/wjwever/gitblog/issues/42)--2023-06-18
 - [wenet transformer 模型](https://github.com/wjwever/gitblog/issues/41)--2023-06-18
+<details><summary>显示更多</summary>
+
 - [wenet学习](https://github.com/wjwever/gitblog/issues/40)--2023-06-17
+</details>
+
 ## 杂七杂八
 - [代码生成工具](https://github.com/wjwever/gitblog/issues/39)--2023-06-17
 - [pytorch dataload学习](https://github.com/wjwever/gitblog/issues/38)--2023-06-16
@@ -54,6 +59,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [Python 协程](https://github.com/wjwever/gitblog/issues/18)--2023-06-04
 </details>
 
+## 生活笔记
+- [一些杂想](https://github.com/wjwever/gitblog/issues/46)--2023-07-02
 ## 读书笔记
 - [《字节跳动：从0到1的秘密》](https://github.com/wjwever/gitblog/issues/16)--2023-06-01
 - [《选择》](https://github.com/wjwever/gitblog/issues/15)--2023-06-01
