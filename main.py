@@ -340,7 +340,10 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
     )
     with open(md_name, "w") as f:
         f.write(f"# [{issue.title}]({issue.html_url})\n\n")
-        f.write(issue.body)
+        if (issue.body):
+            f.write(issue.body)
+        else:
+            f.write('empty content')
         if issue.comments:
             for c in issue.get_comments():
                 if is_me(c, me):
