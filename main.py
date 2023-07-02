@@ -363,5 +363,5 @@ if __name__ == "__main__":
         "--issue_number", help="issue_number", default=None, required=False
     )
     options = parser.parse_args()
-    LOG.debug("token:{options.github_token}")
+    print("token:{options.github_token}")
     main(options.github_token, options.repo_name, options.issue_number)
