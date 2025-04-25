@@ -1,4 +1,4 @@
-## Gitblog
+## Welcome to my story
 My personal blog using issues and GitHub Actions (随意转载，无需署名)
 [RSS Feed](https://raw.githubusercontent.com/wjwever/gitblog/master/feed.xml)
 ## 友情链接
